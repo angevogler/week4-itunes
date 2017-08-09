@@ -1,3 +1,95 @@
 body {
-  background-color: #60d9f1;
+  background-color: #E0FFFF;
+  color: #708090;
+  font-family: Arial, sans-serif;
+  margin: 50px;
+}
+
+header {
+  font-family: 'Kranky', cursive;
+  text-align: center;
+  font-size: 200%;
+}
+
+.music-player {
+  width: 75%;
+  padding-left: 11.5%;
+  padding-right: 11.5%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 1%;
+  margin-right: 1%;
+  border-bottom: dashed #F08080 2px;
+}
+
+.search {
+  padding-left: 11.5%;
+  padding-right: 11.5%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 1%;
+  margin-right: 1%;
+  border-bottom: dashed #F08080 2px;
+}
+
+#search-bar {
+  width: 83%;
+  height: 30px;
+  padding: 0.5%;
+  font-family:'Playfair Display', serif;
+  font-size: 100%;
+}
+
+#search-btn {
+  width: 15%;
+  height: 45px;
+  background-color: #F08080;
+  border: none;
+  border-radius: 5px;
+  font-family:'Playfair Display', serif;
+  font-size: 100%;
+  color: #F5FFFA;
+}
+
+h3 {
+  font-family: 'Kranky', cursive;
+}
+
+.results-title {
+  padding-left: 1%;
+  font-size: 200%;
+}
+
+.results {
+  background-color: #708090;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1%;
+}
+
+.track-info {
+  background: #F0FFFF;
+  width: 15%;
+  height: 300px;
+  margin: 1%;
+  padding: 1.5%;
+  align-content: center;
+  position: relative;
+}
+
+.track-image {
+  width: 65%;
+  padding-left: 17.5%;
+  padding-right: 17.5%;
+}
+
+.song-name {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 100%;
+}
+
+.artist-name {
+  text-align: center;
+  font-size: 150%;
 }

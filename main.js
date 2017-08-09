@@ -35,9 +35,9 @@ function showArtistDeets(artist) {
 
     let artistCode = `
       <div class="track-info">
-        <img src="${artistResults.artworkUrl100}">
-        <h4>${artistResults.trackName}</h4>
-        <h3>${artistResults.artistName}</h3>
+        <img src="${artistResults.artworkUrl100}" class="track-image">
+        <h4 class="song-name">${artistResults.trackName}</h4>
+        <h3 class="artist-name">${artistResults.artistName}</h3>
       </div>
     `;
     artistDisplay += artistCode;
